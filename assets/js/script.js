@@ -1,7 +1,7 @@
 const body = document.querySelector('body');
 const h1 = document.querySelector('h1');
 const p = document.querySelector('p');
-const a = document.querySelector('a');
+const img = document.querySelector('img');
 
 body.addEventListener('click', colorChange);
 
@@ -9,12 +9,14 @@ let onbtn = false;
 function colorChange() {
     onbtn = !onbtn;
     if (onbtn) {
-        body.style.color = "white";
-        a.style.color = "white";
-        body.style.background = "black";
+        img.style.border = "2.5px black solid";
+        h1.style.color = "black";
+        p.style.color = "black";
+        body.style.background = "whitesmoke";
     } else {
-        body.style.color = "";
-        a.style.color = "";
+        img.style.border = "";
+        h1.style.color = "";
+        p.style.color = "";
         body.style.background = "";
     }
 }

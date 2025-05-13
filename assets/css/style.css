@@ -75,6 +75,7 @@ nav{
   border-bottom: 1px #303030bc solid;
   background: black;
   transition: all .5s;
+  gap: 20px;
 }
 nav a:hover{
   transition: all .25s;

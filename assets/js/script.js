@@ -22,7 +22,6 @@ function colorChange() {
         body.style.background = "whitesmoke";
         nav.style.borderBottom = "1.5px #c8c8c8 solid";
         nav.style.background = "whitesmoke";
-        wrapper.style.borderBottom = "1.5px #c8c8c8 solid";
 
         contantLists.forEach(a => {
             a.style.background = "black";
@@ -44,7 +43,6 @@ function colorChange() {
         body.style.background = "";
         nav.style.borderBottom = "";
         nav.style.background = "";
-        wrapper.style.borderBottom = "";
 
         contantLists.forEach(a => {
             a.style.background = "";

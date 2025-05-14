@@ -1,15 +1,13 @@
 const body = document.querySelector('body');
 const h1 = document.querySelector('h1');
 const paras = document.querySelectorAll('p');
-const img = document.querySelector('img');
+const img = document.querySelector('.img');
 const links = document.querySelectorAll('nav a');
 const nav = document.querySelector('nav');
 const wrapper = document.querySelector('.wrapper');
 const contants = document.querySelectorAll('.contants');
 const contantLists = document.querySelectorAll('.contants a');
 const toggle = document.querySelector('.toggle');
-
-
 
 toggle.addEventListener('click', colorChange);
 

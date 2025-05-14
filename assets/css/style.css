@@ -17,7 +17,7 @@ body{
     transition: background .5s;
     gap: 20px;
 }
-img{
+.img{
     width: 100%;
     height: 100%;
     border-radius: .5em;
@@ -172,4 +172,28 @@ nav a:hover{
 }
 .contants p{
   z-index: 2;
+}
+.update{
+  gap: 10px;
+  /* width: 80%; */
+  height: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.chat-img{
+  height: 100%;
+  width: 25px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.update-link:hover .chat-img{
+  transform: scale(1.2);
+  transition: .2s;
+}
+.update-link{
+  text-decoration-line: none;
+  gap: 10px;
 }
